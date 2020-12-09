@@ -8,5 +8,15 @@ elif input1 == 'rock':
        print("player 1 wins")
      else:
        print("player 2 wins")
+elif input1 == 'scissors':
+     if input2 == 'rock':
+       print("player 1 wins")
+     else:
+       print("player 2 wins")
+elif input1 == 'paper':
+     if input2 == 'scissors':
+       print("player 2 wins")
+     else:
+       print("player 1 wins")
 
 	
