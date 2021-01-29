@@ -1,0 +1,506 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-29T12:29:19.251Z",
+        "line": 4,
+        "name": "Counting Dashlets",
+        "description": "",
+        "id": "crm-activities;counting-dashlets",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11289775600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on CRM  page",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.openPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4461439200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters CRM",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.userentersusername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1081106000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Count the number of Dashlets",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.dashletscount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127658200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Print the number and title of each Dashlet",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.printdashletscount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1758296000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close CRM browser",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.closeTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRMProject"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T12:29:38.247Z",
+        "line": 12,
+        "name": "Create leads using parameters",
+        "description": "",
+        "id": "crm-activities;create-leads-using-parameters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30133981900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on CRM  page",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.openPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9194473900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters CRM",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.userentersusername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5578375500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Go to sales tab and select leads",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.selectsalestab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3631929100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Fill in the details and save",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.Filltheleaddetails()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 922532300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Go to view leads",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.viewleaddetails()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2231031300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Close CRM browser",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.closeTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRMProject"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T12:30:29.961Z",
+        "line": 21,
+        "name": "Schedule meeting",
+        "description": "",
+        "id": "crm-activities;schedule-meeting",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23306977500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on CRM  page",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.openPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4888827600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters CRM",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.userentersusername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5693442400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Go to Activities tab and select meeting",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.activitiestab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4143692400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Fill the details of the meeting",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.Fillthemeetingdetails()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10109760300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Invite members:",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.Invitemembers(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "newlead1"
+                ]
+              },
+              {
+                "cells": [
+                  "newlead2"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5719715700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Go to view Meetings and confirm",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.navigate_to_view_meetings_page_and_confirm_creation_of_the_meeting()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1754307100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Close CRM browser",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.closeTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRMProject"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T12:31:25.603Z",
+        "line": 43,
+        "name": "Creating a Product",
+        "description": "",
+        "id": "crm-activities;creating-a-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13194702900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User is on CRM  page",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.openPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7526351700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User enters CRM",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.userentersusername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5368957400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "select Products tab",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.Alltab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4193858500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Fill in the product details \"table\" , \"5000\" and save",
+            "match": {
+              "arguments": [
+                {
+                  "val": "table",
+                  "offset": 29
+                },
+                {
+                  "val": "5000",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinitions.CRMPageSteps.Fillproductdetails(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4563857600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Go to view products \"table\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "table",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.CRMPageSteps.viewproducts(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1774251600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Close CRM browser",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.closeTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRMProject"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-29T12:32:02.242Z",
+        "line": 44,
+        "name": "Creating a Product",
+        "description": "",
+        "id": "crm-activities;creating-a-product;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24220225300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User is on CRM  page",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.openPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8119815800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User enters CRM",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.userentersusername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7875603100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "select Products tab",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.Alltab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4790275600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Fill in the product details \"chair\" , \"3000\" and save",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chair",
+                  "offset": 29
+                },
+                {
+                  "val": "3000",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinitions.CRMPageSteps.Fillproductdetails(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1975207400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Go to view products \"chair\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chair",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.CRMPageSteps.viewproducts(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1532899600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Close CRM browser",
+            "match": {
+              "location": "stepdefinitions.CRMPageSteps.closeTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRMProject"
+          }
+        ]
+      }
+    ],
+    "name": "CRM Activities",
+    "description": "",
+    "id": "crm-activities",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/CRM.feature",
+    "tags": [
+      {
+        "name": "@CRMProject",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
